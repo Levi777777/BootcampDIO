@@ -23,8 +23,9 @@
                 <a href="#">Filmes</a>
                 <a href="#">Séries</a>
                 <a href="#">Documentários</a>
-                <a href="#"><input type="search" name="" id="" placeholder="Filmes e Séries"> <i class="fa-brands fa-searchengin"></i></a>
+                <a href="#"><input type="search" name="" id="" placeholder="Filmes e Séries" style="outline: none;"> <i class="fa-brands fa-searchengin"></i></a>                                           
             </nav>
+
         </div>
     </header>
 
@@ -40,12 +41,27 @@
                     <i class="fa-solid fa-play"></i>
                      ASSISTIR AGORA
                  </button>
-                 <button class="botao">
+
+                 <div class="trailer">
+                    <video width="320" height="240" controls="controls">
+                        <source src="video/A Teoria de Tudo - Trailer Oficial.mp4" type="video/mp4">
+                        <object data="" width="320" height="240">
+                        <embed width="320" height="240" src="video/A Teoria de Tudo - Trailer Oficial.mp4">
+                        </object>
+                    </video>
+                 </div>
+
+                 <button class="botao2">
                     <i class="fa-solid fa-circle-info"></i>
-                     MAIS INFORMAÇÕES
+                     MINI BIOGRAFIA
                  </button>
+
+                 <div class="bio">
+                    <p>Stephen William Hawking foi um físico teórico e cosmólogo britânico, reconhecido internacionalmente por sua contribuição à ciência, sendo um dos mais renomados cientistas do século. Stephen foi um grande divulgador científico, lançando dois livros muito famosos: Uma breve história do tempo e Universo numa casca de noz.</p>
+                 </div>
             </div>
-             <h3 class="one">Em alta:</h3>
+
+             <h3 class="one">Em alta</h3>
         </div>
         
     </main>
@@ -54,31 +70,31 @@
         
         <dis class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-filmes" src="img/cosmos.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/cosmos.jpg" alt="" id="cosmo">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/inter.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/inter.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/marie.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/marie.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/bang.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/bang.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/6q1XGbTJQqOGUpX9OlO0bGmtpql.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/6q1XGbTJQqOGUpX9OlO0bGmtpql.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/jurassic.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/jurassic.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/star trek.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/star trek.jpg" alt="" >
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/life.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/life.jpg" alt="">
             </div>
             <div class="item">
-                <img class="box-filmes" src="img/jogo.jpg" alt="" srcset="">
+                <img class="box-filmes" src="img/jogo.jpg" alt="">
             </div>
         </dis>
             <h3>Continue assistindo</h3>
@@ -95,10 +111,6 @@
             <div class="item">
                 <img class="box-filmes" src="img/inter.jpg" alt="" srcset="">
                 <hr id="second">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mundo.jpg" alt="" srcset="">
-                <hr id="first">
             </div>
             <div class="item">
                 <img class="box-filmes" src="img/mente.jpg" alt="" srcset="">
